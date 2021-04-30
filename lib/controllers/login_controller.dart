@@ -10,7 +10,7 @@ class Controller extends ControllerMVC {
 //   }
 //   static Controller _this;
 //   Controller._();
-  Controller(){}
+  Controller();
   bool status=false;
   String get phone=>LoginModel.phone;
   String get password=>LoginModel.password;
