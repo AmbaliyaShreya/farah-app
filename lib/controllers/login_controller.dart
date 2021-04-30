@@ -4,12 +4,13 @@ import 'package:my_app/models/login_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Controller extends ControllerMVC {
-  factory Controller() {
-    if (_this == null) _this = Controller._();
-    return _this;
-  }
-  static Controller _this;
-  Controller._();
+//   factory Controller() {
+//     if (_this == null) _this = Controller._();
+//     return _this;
+//   }
+//   static Controller _this;
+//   Controller._();
+  Controller(){}
   bool status=false;
   String get phone=>LoginModel.phone;
   String get password=>LoginModel.password;
