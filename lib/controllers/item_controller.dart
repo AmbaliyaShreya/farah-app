@@ -8,12 +8,13 @@ import 'package:my_app/models/item_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ItemController extends ControllerMVC {
-  factory ItemController() {
-    if (_this == null) _this = ItemController._();
-    return _this;
-  }
+//   factory ItemController() {
+//     if (_this == null) _this = ItemController._();
+//     return _this;
+//   }
 
-  ItemController._();
+//   ItemController._();
+  ItemController(){}
 
   Dio dio = new Dio();
   bool isLoading = false;
