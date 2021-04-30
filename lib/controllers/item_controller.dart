@@ -14,7 +14,7 @@ class ItemController extends ControllerMVC {
 //   }
 
 //   ItemController._();
-  ItemController(){}
+  ItemController();
 
   Dio dio = new Dio();
   bool isLoading = false;
